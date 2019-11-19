@@ -18,7 +18,7 @@ export default function App() {
           contentContainerStyle={{paddingBottom:20}}
           keyExtractor={(item, index) => item.id}
           data={courseGoals}
-          renderItem={itemData => (<GoalItem title={itemData.item.value} />)} />
+          renderItem={itemData => (<GoalItem onDelete={()=>console.log("Quieres elimarlo?")} title={itemData.item.value} />)} />
       </View>
     </View>
   );

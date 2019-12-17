@@ -19,7 +19,7 @@ export default function App() {
     console.log("Eliminaste una meta!");
   };
 
-  const cancelGoalAddition=()=>{
+  const cancelGoalAddition = () => {
     setIsAddMode(false);
   };
 
